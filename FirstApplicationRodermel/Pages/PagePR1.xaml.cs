@@ -30,7 +30,7 @@ namespace FirstApplicationRodermel.Pages
             double x = Convert.ToDouble(TxtX.Text);
             double y = Convert.ToDouble(TxtY.Text);
             double z = Convert.ToDouble(TxtZ.Text);
-            double t = (2 * Math.Cos(x - Math.PI/6)) / (0.5 + Math.Sin(y) * Math.Sin(y)) * (1 + Math.Pow(z, 2) / (3 - Math.Pow(z, 2) / 5));
+            double t = (2 * Math.Cos(x - Math.PI / 6)) / (0.5 + Math.Sin(y) * Math.Sin(y)) * (1 + Math.Pow(z, 2) / (3 - Math.Pow(z, 2) / 5));
             LstResult.Items.Add("Лаб. раб. №1 Ст. гр. исп.21.2а Каламфуров, Родермель");
             LstResult.Items.Add($"x={x}");
             LstResult.Items.Add($"y={y}");
@@ -50,6 +50,10 @@ namespace FirstApplicationRodermel.Pages
         private void BtnNextPR3_Click(object sender, RoutedEventArgs e)
         {
             Classes.ClassFrame.frmObj.Navigate(new Pages.PagePR3());
+        }
+        private void BtnNextPR7_Click(object sender, RoutedEventArgs e)
+        {
+            Classes.ClassFrame.frmObj.Navigate(new Pages.PagePR7());
         }
     }
 }

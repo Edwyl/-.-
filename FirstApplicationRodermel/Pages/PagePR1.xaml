@@ -80,6 +80,11 @@
                 Content="Практическая №3"
                 Click="BtnNextPR3_Click"
                 Margin="5"/>
+            <Button Name="BtnNextPR7"
+                Style="{StaticResource Btn2Style}"
+                Content="Практическая №7"
+                Click="BtnNextPR7_Click"
+                Margin="5"/>
         </StackPanel>
     </Grid>
 </Page>

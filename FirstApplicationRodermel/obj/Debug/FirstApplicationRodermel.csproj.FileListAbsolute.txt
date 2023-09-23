@@ -84,3 +84,5 @@ C:\Users\pc\Desktop\FirstApplicationRodermel\obj\Debug\FirstApplicationRodermel.
 C:\Users\pc\Desktop\FirstApplicationRodermel\obj\Debug\FirstApplicationRodermel.pdb
 C:\Users\pc\Desktop\FirstApplicationRodermel\obj\Debug\Pages\PagePR3.g.cs
 C:\Users\pc\Desktop\FirstApplicationRodermel\obj\Debug\Pages\PagePR3.baml
+C:\Users\pc\Desktop\FirstApplicationRodermel\obj\Debug\Pages\PagePR7.g.cs
+C:\Users\pc\Desktop\FirstApplicationRodermel\obj\Debug\Pages\PagePR7.baml
